@@ -17,7 +17,9 @@ The website is formed by the `HTML` section page:
 - [x] manifest.json
 - [x] sitemap.xml
 
-The Website style is provided using the `Bootstrap`
+The Website style is provided using the `Bootstrap 4 Framework`
+
+Is also included an `assets` folder where is stored the **css**, **bootstrap**, **javascript** config files and all the **image** used for the website 
 
 # Download
 
