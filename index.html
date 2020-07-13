@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
-    <meta name="twitter:description" content="Un posto solo dove conoscermi e seguire i miei progetti">
-    <meta name="twitter:image" content="assets/img/website_design.png">
-    <meta name="description" content="Un semplice sito web che funge da Portfolio">
-    <meta name="twitter:card" content="summary">
+    <meta name="description" content="Il Portfolio Digitale di Andrea Santinato, Software Engeneer &amp; Full-Stack Developer">
     <meta name="twitter:title" content="Andrea Santinato | WebSite">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="assets/img/website_design.png">
+    <meta name="twitter:description" content="Un posto dove conoscermi e seguire i progressi dei miei progetti">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo%20(16x16).png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo%20(32x32).png">
     <link rel="icon" type="image/png" sizes="128x128" href="assets/img/logo%20(128x128).png">
@@ -18,14 +18,17 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="background-image: url(&quot;assets/img/banner/common-banner.png&quot;);">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="background-image: url(&quot;assets/img/banner/common-banner.png&quot;);height: 88px;">
         <div class="container-fluid"><a class="navbar-brand logo" href="index.html">Andrea Santinato</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navbarNav">
@@ -40,8 +43,7 @@
     </nav>
     <main class="page lanidng-page">
         <section class="portfolio-block block-intro border-bottom">
-            <div class="container">
-                <div class="avatar" style="background-image: url(&quot;assets/img/logo/FotoCV.jpg&quot;);"></div>
+            <div class="container" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                 <h1>Benvenuto nel mio Sito</h1>
                 <div class="about-me">
                     <p class="text-justify">Mi chiamo Andrea Santinato e sono uno sviluppatore ed un networker informatico. In questo sito potrai trovare tutti i miei progetti ed una pagina interamente dedicata al mio Curriculum.</p>
@@ -49,7 +51,7 @@
             </div>
         </section>
         <section class="portfolio-block website">
-            <div class="container">
+            <div class="container" data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-5 offset-lg-1 text">
                         <h3>Website Developer</h3>
@@ -67,7 +69,7 @@
             </div>
         </section>
         <section class="portfolio-block mobile-app">
-            <div class="container align-items-center">
+            <div class="container align-items-center" data-aos="fade-left" data-aos-duration="400" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-3 offset-lg-2">
                         <div class="portfolio-phone-mockup">
@@ -83,7 +85,7 @@
             </div>
         </section>
         <section class="portfolio-block website">
-            <div class="container">
+            <div class="container" data-aos="fade-right" data-aos-duration="400" data-aos-delay="100">
                 <div class="row align-items-center">
                     <div class="col-md-12 col-lg-5 offset-lg-1 text">
                         <h3>Python Project</h3>
@@ -101,7 +103,7 @@
             </div>
         </section>
         <section class="portfolio-block skills">
-            <div class="container">
+            <div class="container" data-aos="fade-down" data-aos-duration="500" data-aos-delay="150">
                 <div class="heading">
                     <h2 class="text-dark"><i class="icon ion-star" style="margin-right: 26px;"></i>Special Skills</h2>
                 </div>
@@ -148,6 +150,8 @@
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
