@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="128x128" href="/assets/img/Logo/Server%20Transfer%20Logo%20(128x128).png?h=8c0a0f29c094d67b493c6b2959184990">
     <link rel="icon" type="image/png" sizes="256x256" href="/assets/img/Logo/Server%20Transfer%20Logo%20(256x256).png?h=1391a6411e7375baf502f96a78f17ec7">
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/Logo/Server%20Transfer%20Logo%20(512x512).png?h=1391a6411e7375baf502f96a78f17ec7">
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=8666b8fff8deae9c1399c84cb979b37d">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=bee2d64342560fd1e0c4c64dd3e6cc5f">
     <link rel="manifest" href="/manifest.json?h=6fdc3b2ea64768a4fd1ed65160364f3c">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
@@ -45,42 +45,49 @@
         <div class="container"></div>
     </header>
     <section id="portfolio" class="bg-light" style="padding-top: 75px;">
-        <div class="container">
+        <div class="container" data-aos="slide-up" data-aos-duration="500">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="height: 142px;"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="icon ion-android-laptop fa-stack-1x fa-inverse"></i></span></div>
+            </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">Progetti</h2>
-                    <h3 class="section-subheading text-muted" style="padding-top: 19px;">Qui potrai dare uno sguardo più dettagliato a tutti i miei attuali progetti</h3>
+                    <h2 class="text-uppercase" style="margin-bottom: 33px;">Progetti</h2>
+                    <h3 class="text-muted section-subheading" style="margin-bottom: 60px;"><em>Qui potrai dare uno sguardo più dettagliato a tutti i miei attuali progetti</em></h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1" style="border-style: none;">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="/assets/img/banner_index.jpg?h=0ca799426f025e05b4f8c2c5256974eb" style="height: 200px;border-top-left-radius: 20px;border-top-right-radius: 20px;"></a>
-                    <div class="portfolio-caption" style="border: 1px solid rgb(52,58,64);height: 164px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;">
-                        <h4>My Portfolio</h4>
-                        <p class="text-muted">Il mio portfolio non ché il sito web in cui ti trovi ora</p>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card border-0">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover"><img class="card-img-top scale-on-hover" src="/assets/img/banner_index.jpg?h=0ca799426f025e05b4f8c2c5256974eb" alt="Card Image" style="height: 210px;border-top-left-radius: 20px;border-top-right-radius: 20px;border-width: 3px;border-style: none;"></div>
+                        </a>
+                        <div class="card-body" style="border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;background: rgb(52,58,64);border: 1px solid rgb(254,209,54);height: 160px;">
+                            <h1 style="color: rgb(254,209,54);font-size: 30px;">My Portfolio</h1>
+                            <p style="color: rgb(255,255,255);">Il mio portfolio non ché il sito web in cui ti trovi ora</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="/assets/img/python_design.jpg?h=c64fe3aa691868f20f2fddb75a70faa9" style="height: 200px;border-top-right-radius: 20px;border-top-left-radius: 20px;"></a>
-                    <div class="portfolio-caption" style="border: 1px solid rgb(52,58,64);border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;">
-                        <h4>Files Automation</h4>
-                        <p class="text-muted">Uno script in Python che riordina autonomamente i file presenti in una o più directory</p>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card border-0">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover"><img class="card-img-top scale-on-hover" src="/assets/img/python_design.jpg?h=c64fe3aa691868f20f2fddb75a70faa9" alt="Card Image" style="height: 210px;border-top-left-radius: 20px;border-top-right-radius: 20px;border-width: 3px;border-style: none;"></div>
+                        </a>
+                        <div class="card-body" style="border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;background: rgb(52,58,64);border: 1px solid rgb(254,209,54);height: 160px;">
+                            <h1 style="color: rgb(254,209,54);font-size: 30px;">Files Automation</h1>
+                            <h6></h6>
+                            <p style="color: rgb(255,255,255);">Uno script in Python che riordina autonomamente i file presenti in una o più directory</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                        <div class="portfolio-hover" style="height: 210;">
-                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="/assets/img/git-banner.jpg?h=71eb5836f8d63c77541eb326653188bc" style="height: 200px;border-top-right-radius: 20px;border-top-left-radius: 20px;"></a>
-                    <div class="portfolio-caption" style="border: 1px solid rgb(52,58,64);height: 164px;border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;">
-                        <h4>My Dotfiles</h4>
-                        <p class="text-muted">La mia repository in cui mantengo aggiornati nel tempo tutti i miei dotfiles</p>
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="card border-0">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover"><img class="card-img-top scale-on-hover" src="/assets/img/git-banner.jpg?h=71eb5836f8d63c77541eb326653188bc" alt="Card Image" style="height: 210px;border-top-left-radius: 20px;border-top-right-radius: 20px;border-width: 3px;border-style: none;"></div>
+                        </a>
+                        <div class="card-body" style="border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;background: rgb(52,58,64);border: 1px solid rgb(254,209,54);height: 160px;">
+                            <h1 style="color: rgb(254,209,54);font-size: 30px;">My Dotfiles</h1>
+                            <p style="color: rgb(255,255,255);">La mia repository in cui mantengo aggiornati nel tempo tutti i miei dotfiles</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,9 +120,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
-                                <div class="modal-body"><img src="/assets/img/banner_index.jpg?h=0ca799426f025e05b4f8c2c5256974eb" style="height: 250px;">
+                                <div class="modal-body">
                                     <h2 class="text-uppercase">Portfolio</h2>
-                                    <p class="item-intro text-muted">Bello, Semplice, Completo</p>
+                                    <p class="item-intro text-muted">Bello, Semplice, Completo</p><img class="img-fluid" src="/assets/img/banner_index.jpg?h=0ca799426f025e05b4f8c2c5256974eb" style="height: 250px;">
                                     <p>Ho sempre voluto poter creare un sito web che fungesse da portofolio. Un luogo in cui descrivere me stesso e rendere fruibili a tutti il mio lavoro sia personale sia dal punto di vista lavorativo</p>
                                     <ul class="list-unstyled">
                                         <li><a href="https://github.com/AndreaSantinato/Portfolio" style="color: rgb(33,37,41);">GitHub: Portfolio</a></li>
@@ -136,9 +143,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
-                                <div class="modal-body"><img src="/assets/img/python_design.jpg?h=c64fe3aa691868f20f2fddb75a70faa9" style="height: 250px;">
+                                <div class="modal-body">
                                     <h2 class="text-uppercase">Files Automation</h2>
-                                    <p class="item-intro text-muted">Comodo e Funzionale</p>
+                                    <p class="item-intro text-muted">Comodo e Funzionale</p><img class="img-fluid" src="/assets/img/python_design.jpg?h=c64fe3aa691868f20f2fddb75a70faa9" style="height: 250px;">
                                     <p>Capita più spesso di quanto si pensi di perdersi nella miriade di file che ci sono dentro ad una cartella che siano file personali o di lavoro. Perciò ho deciso di sviluppare un piccolo script in python che mi aiuta
                                         nel gestire e organizzare tutti i diversi file catalogandoli in base alla loro categoria di appartenenza. Perdersi ancora sarà impossibile!</p>
                                     <ul class="list-unstyled">
@@ -160,9 +167,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
-                                <div class="modal-body"><img src="/assets/img/git-banner.jpg?h=71eb5836f8d63c77541eb326653188bc" style="height: 250px;">
+                                <div class="modal-body">
                                     <h2 class="text-uppercase">Dotfiles</h2>
-                                    <p class="item-intro text-muted">L'organizzazione è tutto quando si parla di Dotfiles</p>
+                                    <p class="item-intro text-muted">L'organizzazione è tutto quando si parla di Dotfiles</p><img class="img-fluid" src="/assets/img/git-banner.jpg?h=71eb5836f8d63c77541eb326653188bc" style="height: 250px;">
                                     <p>Se si parla di 2 o 3 dotfile allora non c'è problema, ma quando si inizia ad averne più di una ventila allora gestirli e tenerli aggiornati nel tempo non è più una cosa poi tanto semplice. Ho deciso quindi di immagazzinarli
                                         tutti in una singola repository in modo da mantenerli aggiornati nel corso del tempo e poterli riutilizzare in un nuovo computer in totale semplicità clonandoli tramite git. Facile e Veloce, perché&nbsp;mai dovrei
                                         tornare indietro?</p>
